@@ -1,0 +1,15 @@
+name: Emax Smart Socket
+products:
+  - id: 5k7Hlm8eR41g2RPW
+    manufacturer: Emax
+    model: WFG-3-TUYA-NEW
+entities:
+  - entity: switch
+    translation_key: outlet_x
+    translation_placeholders:
+      x: "1"
+    class: outlet
+    dps:
+      - id: 1
+        type: boolean
+        name: switch
